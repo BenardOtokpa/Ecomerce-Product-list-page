@@ -3,3 +3,52 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/*aside section*/
+
+h5 {
+  color: #252C32;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.aside-section {
+  max-width: 708px;
+  background-color: #FFFFFF;
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+}
+
+.aside-section-header {
+  display: block;
+  align-items: center;
+}
+
+.aside-section-header > input {
+  width: 18.64%;
+  padding: .5rem 2rem .5rem .6rem;
+  border-radius: .4rem;
+  border:1px solid #DDE2EF;
+}
+
+@media (max-width: 493px) {
+  .aside-section-header > input {
+      width: 40%;
+      padding: .5rem 0;
+    }
+}
+
+.aside-forms {
+  display: block;
+}
+
+.forms {
+  margin-top: 1.25rem;
+}
+
+.forms label {
+  display: block;
+  margin: 5px 0;
+}
