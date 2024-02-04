@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+
+#main {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.headtext {
+  display: flex;
+  align-items: baseline;
+}
+
+.headtext h5 {
+  margin: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.headtext h6 {
+  border-radius: 16px;
+  background-color: #f9f5ff;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #6941c6;
+}
