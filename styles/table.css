@@ -8,9 +8,14 @@ body {
   max-width: 1216px;
   margin: 0 auto;
 }
+.roww {
+  background-color: #f9fafb;
+  color: #667085;
+}
 
 .headtext {
   display: flex;
+  gap: 5px;
   align-items: baseline;
 }
 
