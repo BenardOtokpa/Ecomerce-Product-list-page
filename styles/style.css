@@ -1,9 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Inter', sans-serif;
+}
 /*aside section*/
 
 h5 {
@@ -14,30 +21,82 @@ h5 {
   line-height: 1.5rem;
 }
 
+Main{
+  display: flex;
+  gap: 30px;
+}
+
 .aside-section {
-  max-width: 708px;
+  max-width: 280px;
   background-color: #FFFFFF;
   margin-top: 1.5rem;
   margin-left: 5rem;
 }
 
-.aside-section-header {
-  display: block;
-  align-items: center;
+.input-fields{
+  display: flex;
+  gap: 10px;
 }
 
-.aside-section-header > input {
-  width: 18.64%;
+.input-fields > input {
+  width: 120px;
   padding: .5rem 2rem .5rem .6rem;
   border-radius: .4rem;
   border:1px solid #DDE2EF;
 }
 
+/* Product section styling */
+.product-section{
+  max-width: 932px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #FFFFFF;
+  margin-top: 1.5rem;
+}
+
+.card{
+  padding:  20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.card h3{
+  color: #252C32;
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+}
+.card h4{
+  color: #252C32;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600 ;
+
+}
+.card .icons{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.ratings{
+  display: flex;
+}
+
+.ratings p{
+  margin-left: 10px;
+}
+
+
 @media (max-width: 493px) {
-  .aside-section-header > input {
-      width: 40%;
+  .aside-section{
+    margin-left: 2rem
+  }
+  .input-fields > input {
+      width: 100%;
       padding: .5rem 0;
     }
+
 }
 
 .aside-forms {
@@ -51,4 +110,54 @@ h5 {
 .forms label {
   display: block;
   margin: 5px 0;
+}
+
+
+@media screen and (max-width: 768px){
+  .product-section{
+    max-width: 768px;
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+
+  img{
+    width: 100%
+  }
+  .card h3, h4{
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .product-section{
+    grid-template-columns: auto;
+  }
+
+  .card{
+    padding:  5px;
+
+  }
+
+  .card .icons{
+    top: 3px;
+    right: 3px;
+  }
+
+  .card-icons img{
+   height: 5px
+  }
+  .card h3, h4{
+   font-size: 14px;
+  }
+  
+  .ratings img{
+    width: 10px;
+  }
+  
+  .ratings p{
+    font-size: 10px;
+  }
+  
+
 }
