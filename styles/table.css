@@ -33,3 +33,38 @@ body {
   line-height: 18px;
   color: #6941c6;
 }
+
+.toprow {
+  display: flex;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.row3 img {
+  width: 13px;
+}
+
+.row1 {
+  width: 292px;
+}
+.row2 {
+  width: 120px;
+}
+.row3 {
+  width: 176px;
+}
+.row4 {
+  width: 224px;
+}
+.row5 {
+  width: 288px;
+}
+.row6 {
+  width: 116px;
+}
