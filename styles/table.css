@@ -165,11 +165,79 @@ body {
   border-radius: 16px;
 }
 
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.previous,
+.next {
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid #d0d5dd;
+  cursor: pointer;
+}
+
+.previous h6,
+.next h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #344054;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number h1:nth-child(1) {
+  background-color: #f9f5ff;
+  border-radius: 8px;
+}
+
+.number h1 {
+  width: 40px;
+  height: 40px;
+  color: #7f56d9;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.page {
+  display: none;
+}
+
 @media (max-width: 700px) {
   .row3,
   .row4,
   .row6,
   .row5 {
+    display: none;
+  }
+
+  .page {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    color: #344054;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .previous h6,
+  .next h6 {
     display: none;
   }
 }
