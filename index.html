@@ -5,204 +5,263 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>E-commerce Product Page</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- market section  -->
+      <nav>
+        <img src="./images/Logo.svg" alt="Logo" />
+        <div>
+          <button class="catigories-btn">
+            <span class="btn-icon"><i class="fa-solid fa-bars"></i></span>
+            <span class="btn">Catigories</span>
+          </button>
+          <div class="input">
+            <input type="text" placeholder="DJI phantom" />
+            <span class="input-icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></span>
+          </div>
+        </div>
+        <div class="market-section">
+          <div class="link">
+            <img src="./images/Vector.svg" alt="" />
+            <a href="">Orders</a>
+          </div>
+          <div class="link">
+            <i class="fa-solid fa-heart"></i>
+            <a href="">Favourite</a>
+          </div>
+          <div class="link">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="">Cart</a>
+          </div>
+        </div>
+        <button class="sign-btn">Sign In</button>
+      </nav>
+
+      <!-- category section  -->
+      <div class="category-cont">
+        <div class="category-section">
+          <div class="location">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="">California</a>
+          </div>
+          <div class="sale-button">
+            <a href="">Best Sellers </a>
+            <a href="">New Releaes</a>
+            <a href="">Books </a>
+            <a href="">Computers</a>
+            <a href="">Fashion</a>
+            <a href="">Health </a>
+            <a href="">Pharmacy</a>
+            <a href="">Toys & Games</a>
+          </div>
+          <a class="category-btn">Become a seller </a>
+        </div>
+      </div>
+    </header>
 
     <main>
-  
-       <aside class="aside-section">
+      <aside class="aside-section">
         <h5>price, $</h5>
         <div class="input-fields">
-          <input type="text" name="min" placeholder="Min">
-          <input type="text" name="max" placeholder="Max">
+          <input type="text" name="min" placeholder="Min" />
+          <input type="text" name="max" placeholder="Max" />
         </div>
-      
-      <div class="aside-forms">
-        <form action="" class="forms">
-          <h5>Quadcopter Features</h5>
+
+        <div class="aside-forms">
+          <form action="" class="forms">
+            <h5>Quadcopter Features</h5>
             <label>
-              <input type="checkbox" name="" id=""> App-Controlled
+              <input type="checkbox" name="" id="" /> App-Controlled
             </label>
             <label for="">
-              <input type="checkbox" name="" id=""> Obstacle Avoidance
+              <input type="checkbox" name="" id="" /> Obstacle Avoidance
             </label>
             <label for="">
-              <input type="checkbox" name="" id=""> Video Downlink Cable
+              <input type="checkbox" name="" id="" /> Video Downlink Cable
+            </label>
+            <label for=""> <input type="checkbox" name="" id="" /> Wifi </label>
+          </form>
+          <form action="" class="forms">
+            <h5>Video Capture Resolution</h5>
+            <label for="">
+              <input type="checkbox" name="" id="" /> 4K UHD 2160p
             </label>
             <label for="">
-              <input type="checkbox" name="" id=""> Wifi
+              <input type="checkbox" name="" id="" /> FHD 1080p
             </label>
-        </form>
-        <form action="" class="forms">
-          <h5>Video Capture Resolution</h5>
-          <label for="">
-            <input type="checkbox" name="" id=""> 4K UHD 2160p
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> FHD 1080p
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> HD 720p
-          </label>
-        </form >
-        <form action="" class="forms">
-          <h5>OPerator Skill Level</h5>
-          <label for="">
-            <input type="checkbox" name="" id=""> Beginner
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> Intermediate
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> Expert
-          </label>
-        </form>
-        <form action="" class="forms">
-          <h5>Brand</h5>
-          <label for="">
-            <input type="checkbox" name="" id=""> DJI 
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> Holy Stone
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> Potensic
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> Ruko
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> aovo
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> OXOXO
-          </label>
-          <label for="">
-            <input type="checkbox" name="" id=""> DEERC
-          </label>
-        </form>
+            <label for="">
+              <input type="checkbox" name="" id="" /> HD 720p
+            </label>
+          </form>
+          <form action="" class="forms">
+            <h5>OPerator Skill Level</h5>
+            <label for="">
+              <input type="checkbox" name="" id="" /> Beginner
+            </label>
+            <label for="">
+              <input type="checkbox" name="" id="" /> Intermediate
+            </label>
+            <label for="">
+              <input type="checkbox" name="" id="" /> Expert
+            </label>
+          </form>
+          <form action="" class="forms">
+            <h5>Brand</h5>
+            <label for=""> <input type="checkbox" name="" id="" /> DJI </label>
+            <label for="">
+              <input type="checkbox" name="" id="" /> Holy Stone
+            </label>
+            <label for="">
+              <input type="checkbox" name="" id="" /> Potensic
+            </label>
+            <label for=""> <input type="checkbox" name="" id="" /> Ruko </label>
+            <label for=""> <input type="checkbox" name="" id="" /> aovo </label>
+            <label for="">
+              <input type="checkbox" name="" id="" /> OXOXO
+            </label>
+            <label for="">
+              <input type="checkbox" name="" id="" /> DEERC
+            </label>
+          </form>
         </div>
-        </aside>
-        <div class="product-section">
-          <div class="card">
-            <div class="icons">
-              <img src="images/love.svg" alt="love">
-              <Img src="images/plus.svg" alt="plus">
-                </div>
-                <div class="images">
-                  <img src="./images/vision.png" alt="DJI Phantom 2 Vision+">
-                  <h3>DJI Phantom 2 Vision+</h3>
-                  <h4>$599</h4>
-                  <div class="ratings">
-                    <img src="images/Star.svg" alt="full star" />
-                    <img src="images/Star.svg" alt="full star" />
-                    <img src="images/Star.svg" alt="full star" />
-                    <img src="images/halfstar.svg" alt="half star" />
-                    <img src="images/faded.svg" alt="faded star" />
-                    <p>243</p>
-                  </div>
-                </div>
-                </div>
-             
-           <div class="card">
-              <div class="icons">
-                <img src="images/love.svg" alt="love">
-                <Img src="images/plus.svg" alt="plus">
-                  </div>
-                  <div class="images">
-                    <img src="./images/multispectral.png" alt="DJI Phantom 4 Multispectral">
-                    <h3>DJI Phantom 4 Multispectral</h3>
-                    <h4>$1499</h4>
-                    <div class="ratings">
-                      <img src="images/Star.svg" alt="full star" />
-                      <img src="images/Star.svg" alt="full star" />
-                      <img src="images/Star.svg" alt="full star" />
-                      <img src="images/star.svg" alt="full star" />
-                      <img src="images/star.svg" alt="full star" />
-                      <p>98</p>
-                    </div>
-                  </div>  
+      </aside>
+      <div class="product-section">
+        <div class="card">
+          <div class="icons">
+            <img src="images/love.svg" alt="love" />
+            <img src="images/plus.svg" alt="plus" />
+          </div>
+          <div class="images">
+            <img src="./images/vision.png" alt="DJI Phantom 2 Vision+" />
+            <h3>DJI Phantom 2 Vision+</h3>
+            <h4>$599</h4>
+            <div class="ratings">
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/halfstar.svg" alt="half star" />
+              <img src="images/faded.svg" alt="faded star" />
+              <p>243</p>
             </div>
-            <div class="card">
-              <div class="icons">
-                <img src="images/love.svg" alt="love">
-                <Img src="images/plus.svg" alt="plus">
-                  </div>
-                  <div class="images">
-              <img src="./images/4pro.png" alt="DJI Phantom 4 pro">
-              <h3>DJI Phantom 4 Pro</h3>
-              <h4>$739</h4>
-              <div class="ratings">
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/faded.svg" alt="faded star" />
-                <img src="images/faded.svg" alt="faded star" />
-                <img src="images/faded.svg" alt="faded star" />
-                <p>1002</p>
-              </div>
-            </div>
+          </div>
+        </div>
 
+        <div class="card">
+          <div class="icons">
+            <img src="images/love.svg" alt="love" />
+            <img src="images/plus.svg" alt="plus" />
+          </div>
+          <div class="images">
+            <img
+              src="./images/multispectral.png"
+              alt="DJI Phantom 4 Multispectral"
+            />
+            <h3>DJI Phantom 4 Multispectral</h3>
+            <h4>$1499</h4>
+            <div class="ratings">
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/star.svg" alt="full star" />
+              <img src="images/star.svg" alt="full star" />
+              <p>98</p>
             </div>
-            <div class="card">
-              <div class="icons">
-                <img src="images/love.svg" alt="love">
-                <Img src="images/plus.svg" alt="plus">
-                  </div>
-                  <div class="images">
-              <img src="./images/flight.png" alt="4 Series — Intelligent Flight Battery">
-              <h3>4 Series — Intelligent Flight Battery</h3>
-              <h4>$186</h4>
-              <div class="ratings">
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/halfstar.svg" alt="half star" />
-                <img src="images/faded.svg" alt="faded star" />
-                <p>243</p>
-              </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icons">
+            <img src="images/love.svg" alt="love" />
+            <img src="images/plus.svg" alt="plus" />
+          </div>
+          <div class="images">
+            <img src="./images/4pro.png" alt="DJI Phantom 4 pro" />
+            <h3>DJI Phantom 4 Pro</h3>
+            <h4>$739</h4>
+            <div class="ratings">
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/faded.svg" alt="faded star" />
+              <img src="images/faded.svg" alt="faded star" />
+              <img src="images/faded.svg" alt="faded star" />
+              <p>1002</p>
             </div>
-
+          </div>
+        </div>
+        <div class="card">
+          <div class="icons">
+            <img src="images/love.svg" alt="love" />
+            <img src="images/plus.svg" alt="plus" />
+          </div>
+          <div class="images">
+            <img
+              src="./images/flight.png"
+              alt="4 Series — Intelligent Flight Battery"
+            />
+            <h3>4 Series — Intelligent Flight Battery</h3>
+            <h4>$186</h4>
+            <div class="ratings">
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/halfstar.svg" alt="half star" />
+              <img src="images/faded.svg" alt="faded star" />
+              <p>243</p>
             </div>
-            <div class="card">
-              <div class="icons">
-                <img src="images/love.svg" alt="love">
-                <Img src="images/plus.svg" alt="plus">
-                  </div>
-                  <div class="images">
-              <img src="./images/phantom3.png" alt="DJI Phantom 3 Intelligent Flight">
-              <h3>DJI Phantom 3 Intelligent Flight</h3>
-              <h4>$98</h4>
-              <div class="ratings">
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <p>98</p>
-              </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icons">
+            <img src="images/love.svg" alt="love" />
+            <img src="images/plus.svg" alt="plus" />
+          </div>
+          <div class="images">
+            <img
+              src="./images/phantom3.png"
+              alt="DJI Phantom 3 Intelligent Flight"
+            />
+            <h3>DJI Phantom 3 Intelligent Flight</h3>
+            <h4>$98</h4>
+            <div class="ratings">
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <p>98</p>
             </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icons">
+            <img src="images/love.svg" alt="love" />
+            <img src="images/plus.svg" alt="plus" />
+          </div>
+          <div class="images">
+            <img src="./images/djip.png" alt="DJI Phantom 4 pro" />
+            <h3>DJI Phantom 4 pro</h3>
+            <h4>$599</h4>
+            <div class="ratings">
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/Star.svg" alt="full star" />
+              <img src="images/halfstar.svg" alt="half star" />
+              <img src="images/faded.svg" alt="faded star" />
+              <p>243</p>
             </div>
-            <div class="card">
-              <div class="icons">
-                <img src="images/love.svg" alt="love">
-                <Img src="images/plus.svg" alt="plus">
-                  </div>
-                  <div class="images">
-              <img src="./images/djip.png" alt="DJI Phantom 4 pro">
-              <h3>DJI Phantom 4 pro</h3>
-              <h4>$599</h4>
-              <div class="ratings">
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/Star.svg" alt="full star" />
-                <img src="images/halfstar.svg" alt="half star" />
-                <img src="images/faded.svg" alt="faded star" />
-                <p>243</p>
-              </div>
-            </div>
-            </div>
+          </div>
+        </div>
       </div>
       <!-- this is chat-crisp section-->
       <img class="chat-crisp" src="images/Chat – Crisp.png" alt="chat-crisp" />

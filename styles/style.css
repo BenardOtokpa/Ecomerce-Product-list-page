@@ -1,6 +1,5 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import "./header.css";
 
 * {
   padding: 0;
@@ -8,70 +7,73 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Inter', sans-serif;
+body {
+  font-family: "Inter", sans-serif;
 }
 /*aside section*/
 
 h5 {
-  color: #252C32;
+  color: #252c32;
   font-family: Inter;
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5rem;
 }
 
-Main{
+Main {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   gap: 30px;
+  position: relative;
+  /* background-color: bisque; */
 }
 
 .aside-section {
   max-width: 280px;
-  background-color: #FFFFFF;
+  /* background-color: #ffffff; */
   margin-top: 1.5rem;
   margin-left: 5rem;
 }
 
-.input-fields{
+.input-fields {
   display: flex;
   gap: 10px;
 }
 
 .input-fields > input {
   width: 120px;
-  padding: .5rem 2rem .5rem .6rem;
-  border-radius: .4rem;
-  border:1px solid #DDE2EF;
+  padding: 0.5rem 2rem 0.5rem 0.6rem;
+  border-radius: 0.4rem;
+  border: 1px solid #dde2ef;
 }
 
 /* Product section styling */
-.product-section{
+.product-section {
   max-width: 932px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: 1.5rem;
 }
 
-.card{
-  padding:  20px;
+.card {
+  padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: relative;
 }
-.card h3{
-  color: #252C32;
-  font-family: 'inter', sans-serif;
+.card h3 {
+  color: #252c32;
+  font-family: "inter", sans-serif;
   font-weight: 400;
 }
-.card h4{
-  color: #252C32;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600 ;
-
+.card h4 {
+  color: #252c32;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
 }
-.card .icons{
+.card .icons {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -79,24 +81,22 @@ Main{
   right: 10px;
 }
 
-.ratings{
+.ratings {
   display: flex;
 }
 
-.ratings p{
+.ratings p {
   margin-left: 10px;
 }
 
-
 @media (max-width: 493px) {
-  .aside-section{
-    margin-left: 2rem
+  .aside-section {
+    margin-left: 2rem;
   }
   .input-fields > input {
-      width: 100%;
-      padding: .5rem 0;
-    }
-
+    width: 100%;
+    padding: 0.5rem 0;
+  }
 }
 
 .aside-forms {
@@ -112,62 +112,58 @@ Main{
   margin: 5px 0;
 }
 
-
-@media screen and (max-width: 768px){
-  .product-section{
+@media screen and (max-width: 768px) {
+  .product-section {
     max-width: 768px;
     grid-template-columns: repeat(2, 1fr);
-  
   }
 
-  img{
-    width: 100%
+  img {
+    width: 100%;
   }
-  .card h3, h4{
+  .card h3,
+  h4 {
     font-size: 16px;
   }
-
 }
 
 @media screen and (max-width: 480px) {
-  .product-section{
+  .product-section {
     grid-template-columns: auto;
   }
 
-  .card{
-    padding:  5px;
-
+  .card {
+    padding: 5px;
   }
 
-  .card .icons{
+  .card .icons {
     top: 3px;
     right: 3px;
   }
 
-  .card-icons img{
-   height: 5px
+  .card-icons img {
+    height: 5px;
   }
-  .card h3, h4{
-   font-size: 14px;
+  .card h3,
+  h4 {
+    font-size: 14px;
   }
-  
-  .ratings img{
+
+  .ratings img {
     width: 10px;
   }
-  
-  .ratings p{
+
+  .ratings p {
     font-size: 10px;
   }
-  
-
 }
 
 .chat-crisp {
   width: 60px;
   height: 60px;
-  margin-top: 816px;
-  margin-left: 1316px;
   padding: 19px, 16.35px, 17.75px, 15px;
   border-radius: 30px;
-  
+  position: relative;
+  top: 43rem;
+  right: 30px;
 }
