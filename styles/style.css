@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 @import "./header.css";
+@import "./table.css";
 
 * {
   padding: 0;
@@ -26,12 +27,12 @@ Main {
   display: flex;
   gap: 30px;
   position: relative;
-  /* background-color: bisque; */
+  background-color: bisque;
 }
 
 .aside-section {
   max-width: 280px;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   margin-top: 1.5rem;
   margin-left: 5rem;
 }
@@ -91,7 +92,7 @@ Main {
 
 @media (max-width: 493px) {
   .aside-section {
-    margin-left: 2rem;
+    display: none;
   }
   .input-fields > input {
     width: 100%;

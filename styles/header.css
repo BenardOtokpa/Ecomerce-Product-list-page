@@ -8,7 +8,6 @@ nav {
 nav div {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 25px;
 }
 nav img {
@@ -107,4 +106,19 @@ nav img {
   text-decoration: none;
   color: black;
   margin-left: -50px;
+}
+
+@media (max-width: 493px) {
+  nav div {
+    display: none;
+  }
+  .sale-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav div:nth-last-child(2) {
+    display: none;
+  }
 }
