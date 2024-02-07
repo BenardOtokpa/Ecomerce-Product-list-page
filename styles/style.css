@@ -24,10 +24,13 @@ h5 {
 Main {
   max-width: 1400px;
   margin: 0 auto;
+  position: relative;
+}
+
+.product-container {
+  /* background-color: bisque; */
   display: flex;
   gap: 30px;
-  position: relative;
-  background-color: bisque;
 }
 
 .aside-section {

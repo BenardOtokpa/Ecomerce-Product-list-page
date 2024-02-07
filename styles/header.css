@@ -112,6 +112,11 @@ nav img {
   nav div {
     display: none;
   }
+  .category-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
   .sale-button {
     display: none;
   }
